@@ -296,23 +296,23 @@ apply_murmurhash3_x64_128(Item) ->
     V = murmurhash3_x64_128(K).
 
 murmurhash64a_test() ->
-    TestsData = read_test_data("../tests/MurmurHash64A.data"),
+    TestsData = read_test_data("tests/MurmurHash64A.data"),
     lists:foreach(fun apply_murmurhash64a/1, TestsData).
 
 murmurhash2_test() ->
-    TestsData = read_test_data("../tests/MurmurHash2.data"),
+    TestsData = read_test_data("tests/MurmurHash2.data"),
     lists:foreach(fun apply_murmurhash2/1, TestsData).
 
 murmurhash3_32_test() ->
-    TestsData = read_test_data("../tests/MurmurHash3_32.data"),
+    TestsData = read_test_data("tests/MurmurHash3_32.data"),
     lists:foreach(fun apply_murmurhash3_32/1, TestsData).
 
 murmurhash3_x86_128_test() ->
-    TestsData = read_test_data("../tests/MurmurHash3_x86_128.data"),
+    TestsData = read_test_data("tests/MurmurHash3_x86_128.data"),
     lists:foreach(fun apply_murmurhash3_x86_128/1, TestsData).
 
 murmurhash3_x64_128_test() ->
-    TestsData = read_test_data("../tests/MurmurHash3_x64_128.data"),
+    TestsData = read_test_data("tests/MurmurHash3_x64_128.data"),
     lists:foreach(fun apply_murmurhash3_x64_128/1, TestsData).
 
 -endif.

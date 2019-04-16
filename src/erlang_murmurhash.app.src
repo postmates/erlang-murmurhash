@@ -1,7 +1,7 @@
 {application, erlang_murmurhash,
  [
   {description, "MurMurHash implemented in Erlang NIFs"},
-  {vsn, "1.0"},
+  {vsn, "git"},
   {modules, [
              erlang_murmurhash
             ]},
