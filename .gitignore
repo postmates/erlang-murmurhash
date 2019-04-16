@@ -1,6 +1,9 @@
+_build
+c_src/*.d
 *~
 .eunit
 c_src/*.o
 doc
 ebin
 priv
+rebar3.crashdump
